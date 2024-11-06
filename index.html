@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chess Game Prototype</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Game</title>
+
+  <!-- Link to Chessboard.js CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/chessboardjs/dist/chessboard-1.0.0.css">
+  
+  <!-- Link to your custom CSS (optional) -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="board"></div>
-    <script src="script.js"></script>
+  <h1>Chess Game</h1>
+  <div id="board1" style="width: 400px;"></div> <!-- Chessboard container -->
+  <div id="move-history"></div> <!-- Display move history -->
+
+  <!-- Link to Chess.js and Chessboard.js Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.min.js"></script> <!-- Chess.js library -->
+  <script src="https://unpkg.com/chessboardjs/dist/chessboard-1.0.0.js"></script> <!-- Chessboard.js library -->
+
+  <!-- Link to your custom script -->
+  <script src="script.js"></script> <!-- Your custom JS file -->
 </body>
 </html>
